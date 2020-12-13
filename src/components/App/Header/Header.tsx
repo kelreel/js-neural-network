@@ -4,7 +4,7 @@ import { Container, Logo } from './styled'
 export default function Header() {
   return (
     <Container>
-      <Logo>Neural Network</Logo>
+      <Logo>Методы Data Mining. Нейронные сети.</Logo>
     </Container>
   )
 }

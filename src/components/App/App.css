@@ -1,0 +1,10 @@
+.App {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.App main {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+}
