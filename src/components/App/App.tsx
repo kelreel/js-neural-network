@@ -1,7 +1,8 @@
-import React from 'react';
-import Header from './Header/Header';
-import './App.css';
-import VariantSelector from '../Variant/VariantSelector/VariantSelector';
+import React from "react";
+import Header from "./Header/Header";
+import "./App.css";
+import VariantSelector from "../variant/VariantSelector/VariantSelector";
+import Network from "./Network/Network";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <main>
         <VariantSelector />
+        <Network />
       </main>
     </div>
   );
